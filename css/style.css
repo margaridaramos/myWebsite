@@ -23,6 +23,8 @@ header   {
 header #logo  {
     color: #FFF;
     text-decoration: none;
+    width: 49%;
+    display: inline-block;
 }
 
 header #logo img {
@@ -30,4 +32,32 @@ header #logo img {
     border: 3px;
     margin-right: 8px;
     vertical-align: middle;
+}
+
+/* main navigation */
+header #main-navigation {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+header #main-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+header #main-navigation ul li {
+    display: inline-block;
+}
+
+header #main-navigation ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+
+header #main-navigation ul li a:hover {
+    background: #444;
 }

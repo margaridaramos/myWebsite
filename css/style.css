@@ -11,3 +11,23 @@ body    {
 }
 
 /* main styles */
+
+/* header styles */
+header   {
+    background: #222;
+    color: #FFF;
+    padding: 20px 30px;
+}
+
+/* logo */
+header #logo  {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header #logo img {
+    width: 50px;
+    border: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
